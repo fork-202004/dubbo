@@ -22,7 +22,8 @@ import com.alibaba.dubbo.config.support.Parameter;
 import java.util.Map;
 
 /**
- * RegistryConfig
+ * 注册中心配置，参见 《Dubbo 用户指南 —— dubbo:registry》 文档:
+ * - http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-registry.html
  *
  * @export
  */

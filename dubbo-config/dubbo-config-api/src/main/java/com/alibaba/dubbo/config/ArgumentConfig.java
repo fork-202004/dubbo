@@ -22,6 +22,12 @@ import com.alibaba.dubbo.config.support.Parameter;
 import java.io.Serializable;
 
 /**
+ * 方法参数配置
+ *  - 该配置类设置到 MethodConfig 对象中
+ *  - 具体属性的解释，参见 《Dubbo 用户指南 —— dubbo:argument》 文档:
+ *      - http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-argument.html
+ *  - 在 《Dubbo 用户指南 —— 参数回调》 特性中使用。
+ *      - http://dubbo.apache.org/zh-cn/docs/user/demos/callback-parameter.html
  * @export
  */
 public class ArgumentConfig implements Serializable {

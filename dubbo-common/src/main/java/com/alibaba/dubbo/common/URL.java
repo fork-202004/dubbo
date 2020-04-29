@@ -37,6 +37,7 @@ import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
+ * 我们会发现 URL 作为一个通用模型，贯穿整个 RPC 流程。
  * URL - Uniform Resource Locator (Immutable, ThreadSafe)
  * <p>
  * url example:
@@ -1154,6 +1155,15 @@ public final class URL implements Serializable {
         return buildString(appendUser, appendParameter, false, false, parameters);
     }
 
+    /**
+     * 生成URL
+     * @param appendUser
+     * @param appendParameter
+     * @param useIP
+     * @param useService
+     * @param parameters
+     * @return
+     */
     private String buildString(boolean appendUser, boolean appendParameter, boolean useIP, boolean useService, String... parameters) {
         StringBuilder buf = new StringBuilder();
         if (protocol != null && protocol.length() > 0) {

@@ -22,6 +22,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 模块信息配置:
+ *  - 具体属性的解释，参见 《Dubbo 用户指南 —— dubbo:module》 文档：
+ *      - http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-module.html
+ *
  * ModuleConfig
  *
  * @export

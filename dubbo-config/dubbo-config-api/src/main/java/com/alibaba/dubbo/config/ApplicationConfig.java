@@ -27,6 +27,8 @@ import java.util.Map;
 
 
 /**
+ * 应用配置。参见 《Dubbo 用户指南 —— dubbo:application》 文档：
+ *  http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-application.html
  * ApplicationConfig
  *
  * @export
